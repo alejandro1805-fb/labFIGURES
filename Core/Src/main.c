@@ -65,7 +65,7 @@ typedef struct
 
 #define NUM_LADOS              4        /* Número de lados: 3 a 6         */
 #define LONGITUD_LADO_CM       30.0f    /* Longitud de cada lado en cm    */
-#define NUM_VUELTAS            3        /* Veces que recorre el polígono  */
+#define NUM_VUELTAS            1        /* Veces que recorre el polígono  */
 
 /* =====================================================================
    CALIBRACIÓN  (ver instrucciones)

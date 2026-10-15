@@ -2056,8 +2056,8 @@ int main(void)
  8001028:	3301      	adds	r3, #1
  800102a:	617b      	str	r3, [r7, #20]
  800102c:	697b      	ldr	r3, [r7, #20]
- 800102e:	2b02      	cmp	r3, #2
- 8001030:	d9dc      	bls.n	8000fec <main+0xb0>
+ 800102e:	2b00      	cmp	r3, #0
+ 8001030:	d0dc      	beq.n	8000fec <main+0xb0>
                  (DIST_CALIBRACION_CM * FACTOR_DISTANCIA) / CM_POR_PULSO,
                  &acc_recta, VEL_RECTA, 1);
 
